@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;  
+    max-height: 100vh;  
+}
+
+.f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    padding: 50px;
+
+}
+#google{
+    height: 40px;
+}
+button{
+    background-color: rgb(255, 0, 0);
+    height: 50px;
+    color: white;
+    border-radius: 30px;
+    width: 50px;
+}
+#container{
+    height: 40px;
+    border-radius: 15px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+ #pic1{
+    height: 60px;
+    width: 60px;
+    padding: 8px;
+}
+#pic2{
+    height: 60px;
+    width: 60px;
+    padding: 8px;
+
+}
+#pic3{
+    height: 60px;
+    width: 60px;
+    padding: 8px;
+}
+.mother{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+#img{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+    
+  
